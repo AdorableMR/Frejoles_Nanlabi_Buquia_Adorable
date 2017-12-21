@@ -1,0 +1,137 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-size: 120%;
+	background: #F8F8FF;
+}
+.header{
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: black;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+.home-header{
+	width: 97%;
+	color: #5f9ea0;
+	background: black;
+	text-align: center;
+	border-bottom: none;
+	padding: 20px;
+	position: fixed;
+
+}
+
+.container{
+	
+	width: 97%;
+	padding: 20px;
+	
+}
+.btn{
+	padding:10px;
+	font-size: 15px;
+	color:white;
+	background: black;
+	border:none;
+	border-radius: 5px;
+}
+
+.btnLogout{
+	text-align: right;
+}
+.btnLogout a{
+	text-decoration: none;
+}
+
+.sidenav {
+	top:0;
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 95px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #5f9ea0;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.bg{
+	left:0px;
+	width:100%;
+	position:fixed;
+}
+.navbar{
+	text-align:right;
+	margin-right: 10px;
+}
+.navbar a{
+	text-decoration:none;
+	margin-left: 10px;
+}
+
+form{
+	width: 50%;
+	float:left;
+}
+.r_image{
+	margin-top: 120px;
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+.b1{
+	font-size: 20px;
+	margin-right: 40px;
+	text-align: justify !important;
+}.b2{
+	font-size: 20px;
+	text-align: justify !important;
+	margin-left: 40px;
+}
+.b3{
+	font-size: 20px;
+	text-align: justify !important;
+	margin-right: 40px;
+}
+.b4{
+	font-size: 20px;
+	text-align: justify !important;
+	margin-left: 40px;
+}
+.b3_image, .b4_image{
+	margin-top: 20px;
+}
+.btnBorrow{
+	background-color: #5f9ea0;
+	color:white;
+	padding:5px 5px 5px 5px;
+	font-size: 15px;
+}
